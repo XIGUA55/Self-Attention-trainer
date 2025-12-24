@@ -1,0 +1,40 @@
+[
+    {
+        "id": "001",
+        "type": "story",
+        "req_level": 0,
+        "req_completed": [], 
+        "sender": "Lab Director <admin@self_attention_lab.org>",
+        "subject": "Welcome Aboard / First Assignment",
+        "body": "Welcome to the Self-Attention Lab.\n\nYour terminal is set up. We need to verify your hardware stability before assigning you to complex projects.\n\nPlease run the attached 'Sanity Check' protocol.",
+        "attachment": {
+            "name": "[TUTORIAL] Hardware Sanity Check",
+            "base_ops": 15,
+            "difficulty": 1,
+            "requirements": { "min_epochs": 5, "target_acc": null },
+            "rewards": [
+                { "type": "exp", "val": 100 },
+                { "type": "coin", "val":0 }
+            ]
+        }
+    },
+    {
+        "id": "002",
+        "type": "story",
+        "req_level": 2,
+        "req_completed": ["001"],
+        "sender": "Unknown <cipher@dark.net>",
+        "subject": "Lucrative Opportunity",
+        "body": "I saw your logs on the public net. Not bad for a rookie.\n\nI have a private key that needs cracking. The lab won't approve this, but I pay in crypto.\n\nInterested?",
+        "attachment": {
+            "name": "[SIDE-GIG] Key Cracking",
+            "base_ops": 400,
+            "difficulty": 2,
+            "requirements": { "min_epochs": 10, "target_acc": 85 },
+            "rewards": [
+                { "type": "exp", "val": 200 },
+                { "type": "coin", "val": 300 }
+            ]
+        }
+    }
+]

@@ -1,0 +1,16 @@
+{
+    "models": [
+        { "name": "Linear-Regression", "type": "Stat", "param_size": "2K",   "base_ops": 20,    "min_loss": 0.01, "max_loss": 5.0 },
+        { "name": "LeNet-5 (MNIST)",   "type": "CV",   "param_size": "60K",  "base_ops": 150,   "min_loss": 0.05, "max_loss": 2.5 },
+        { "name": "ResNet-18",         "type": "CV",   "param_size": "11M",  "base_ops": 800,   "min_loss": 0.15, "max_loss": 4.0 },
+        { "name": "YOLOv8-Nano",       "type": "CV",   "param_size": "3M",   "base_ops": 1200,  "min_loss": 0.20, "max_loss": 6.0 },
+        { "name": "BERT-Base",         "type": "NLP",  "param_size": "110M", "base_ops": 4500,  "min_loss": 0.10, "max_loss": 8.0 },
+        { "name": "Stable-Diff-v1.5",  "type": "Gen",  "param_size": "860M", "base_ops": 12000, "min_loss": 0.08, "max_loss": 12.0 },
+        { "name": "LLaMA-3-8B",        "type": "LLM",  "param_size": "8B",   "base_ops": 45000, "min_loss": 1.80, "max_loss": 15.0 },
+        { "name": "GPT-4-MoE",         "type": "LLM",  "param_size": "1.7T", "base_ops": 150000,"min_loss": 1.20, "max_loss": 20.0 }
+    ],
+    "datasets": [ "CommonCrawl", "ImageNet-21k", "Laion-5B", "StackOverflow" ],
+    "game_balance": {
+        "time_scale_constant": 0.5 
+    }
+}

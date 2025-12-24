@@ -1,0 +1,26 @@
+[
+  {
+    "task_name": "DeepSeek-V3 微调优化",
+    "client": "匿名组织-Shadow",
+    "desc": "我们需要额外的算力来优化 V3 模型的逻辑推理分支，请协助进行 45-60 分钟的强化学习训练。",
+    "base_reward": 1.5,
+    "min_time": 45,
+    "max_time": 60
+  },
+  {
+    "task_name": "边缘设备轻量化蒸馏",
+    "client": "NeoTokyo 科技部",
+    "desc": "为了在旧型终端运行，我们需要对当前模型进行知识蒸馏，预计需要 30 分钟的高强度计算。",
+    "base_reward": 1.0,
+    "min_time": 30,
+    "max_time": 40
+  },
+  {
+    "task_name": "神经网络噪音清洗",
+    "client": "数据回收站",
+    "desc": "采集的数据中含有大量非法干扰，需要利用你的算力节点进行去噪处理。",
+    "base_reward": 1.2,
+    "min_time": 35,
+    "max_time": 50
+  }
+]

@@ -1,0 +1,98 @@
+[
+    {
+        "id":0,
+        "name": "Intel Core i3-8100 (Legacy CPU)",
+        "tflops": 0.1,
+        "cost": 0,
+        "description": "The humble beginning. A weak but necessary silicon cornerstone for your digital empire's foundation.",
+        "level":1
+    },
+    {
+        "id":1,
+        "name": "NVIDIA GTX 1060 Founders Ed. (6GB)",
+        "tflops": 4.0,
+        "cost": 200,
+        "description": "Legendary budget card. Aging silicon that stubbornly runs basic neural network inferences.",
+        "level":2
+    },
+    {
+        "id":2,
+        "name": "NVIDIA RTX 3060 OC (12GB)",
+        "tflops": 13.0,
+        "cost": 600,
+        "description": "Features generous 12GB VRAM. The high-value gateway drug for entry-level AI alchemy.",
+        "level":3
+    },
+    {
+        "id":3,
+        "name": "NVIDIA RTX 4090 Ti (Titan Class)",
+        "tflops": 83.0,
+        "cost": 1500,
+        "description": "Consumer monster. Massive thermal footprint required to run quantization-free Large Language Models locally.",
+        "level":4
+    },
+    {
+        "id":4,
+        "name": "NVIDIA A100 Tensor Core (80GB)",   
+        "tflops": 312.0,
+        "cost": 5000,
+        "description": "Data center gold standard. High bandwidth memory powering the early 21st-century AI revolution.",
+        "level":5
+    },
+    {
+        "id":5,
+        "name": "NVIDIA H100 NVL Cluster (Hopper)",
+        "tflops": 1979.0,
+        "cost": 20000,
+        "description": "The brute force era. Burns megawatts to train trillion-parameter models via massive NVLink interconnects.",
+        "level":5
+    },
+    {
+        "id":6,
+        "name": "NVIDIA Blackwell B200 Superchip",
+        "tflops": 9000.0,
+        "cost": 100000,
+        "description": "Silicon age pinnacle. Dual die fusion pushing electron mobility to its absolute physical limits.",
+        "level":6
+    },
+    {
+        "id":7,
+        "name": "Rubin R-X1000 Omni-Scale",
+        "tflops": 32500.0,
+        "cost": 280000,
+        "description": "Post-silicon prototype. 3D Angstrom-level stacking and superconducting loops shatter Moore's Law forever.",
+        "level":7
+    },
+    {
+        "id":8,
+        "name": "Lumina Z-1 Optic-Core (400THz)",
+        "tflops": 115000.0,
+        "cost": 650000,
+        "description": "Replaces electrons with photons. Data flows at light speed with near-zero thermal resistance.",
+        "level":8
+    },
+    {
+        "id":9,
+        "name": "BioSyn Synth-Cortex Gen-4 (Wetware)",
+        "tflops": 480000.0,
+        "cost": 1800000,
+        "description": "Lab-grown synthetic neurons in nutrient gel. It doesn't just calculate data; it understands it.",
+        "level":9
+    },
+    {
+        "id":10,
+        "name": "Stardust MK-VII Nano-Swarm",
+        "tflops": 1500000.0,
+        "cost": 5000000,
+        "description": "Trillions of programmable nanobots. Hardware architecture reconfigures physically in milliseconds to match algorithms.",
+        "level":10
+    },
+    {
+        "id":11,
+        "name": "Aion Zero-Point Entangler (Type-Ω)",
+        "tflops": 6800000.0,
+        "cost": 15000000,
+        "description": "Manipulates quantum probability strings. By observing all outcomes simultaneously, the answer precedes the question.",
+        "level":10
+    }
+]
